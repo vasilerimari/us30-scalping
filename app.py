@@ -10,6 +10,7 @@ from collections import defaultdict, deque
 from utils_confirmari import calculate_rsi, calculate_cvd, detect_market_structure
 
 POLYGON_API_KEY = "NcRnNhMkfPDwv_gCgMDCKwgnpXb0jLnM"
+# versiune testată manual
 
 TELEGRAM_WEBHOOK_URL = st.secrets.get("TELEGRAM_WEBHOOK_URL", "")
 
