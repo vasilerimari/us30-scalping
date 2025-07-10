@@ -9,7 +9,8 @@ from datetime import datetime, timedelta
 from collections import defaultdict, deque
 from utils_confirmari import calculate_rsi, calculate_cvd, detect_market_structure
 
-POLYGON_API_KEY = "NcRnNhMkfPDwv_gCgMDCKwgnpXb0jLnM"
+POLYGON_API_KEY = 'NcRnNhMkfPDwv_gCgMDCKwgnpXb0jLnM'
+
 
 TELEGRAM_WEBHOOK_URL = st.secrets.get("TELEGRAM_WEBHOOK_URL", "")
 
